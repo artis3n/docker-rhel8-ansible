@@ -18,7 +18,7 @@ jobs:
 
       - uses: hadolint/hadolint-action@v1.6.0
         with:
-          ignore: DL3003 DL3033 DL3059 DL3013 SC2039 SC2086
+          ignore: DL3007 DL3003 SC2086 DL3033 DL3013 DL3059 SC2039
 
   test:
     runs-on: ubuntu-latest
